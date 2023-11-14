@@ -1,11 +1,11 @@
 services:
-  flask-app1:
+  container1:
     build : .
     image: jacobmassih/log8415_tp2
     ports:
       - "5000:5000"
 
-  flask-app2:
+  container2:
     build : .
     image: jacobmassih/log8415_tp2
     ports:
