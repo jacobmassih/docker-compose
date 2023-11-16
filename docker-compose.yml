@@ -1,12 +1,12 @@
 services:
   container1:
     build : .
-    image: jacobmassih/log8415_tp2
+    image: jacobmassih/tp2_worker
     ports:
       - "5000:5000"
 
   container2:
     build : .
-    image: jacobmassih/log8415_tp2
+    image: jacobmassih/tp2_worker
     ports:
       - "5001:5000"
